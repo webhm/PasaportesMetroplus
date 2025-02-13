@@ -11,9 +11,9 @@ database:
   drivers:
     mysql:
       host: localhost
-      user: admin_hmetro
-      pass: 1501128480
-      name: admin_hmetro
+      user: admin_pasaportes
+      pass: pg97Bh4^9
+      name: admin_pasaportes
       port: default
       socket: default
     oracle:
@@ -101,7 +101,7 @@ database:
       driver: oci8
       charset: UTF8
     sqlite3:
-      file: '___ROOT___Ocrend/Kernel/Database/Drivers/Sqlite/db.sqlite3'
+      file: "___ROOT___Ocrend/Kernel/Database/Drivers/Sqlite/db.sqlite3"
 
 # Configuración de servidor SMTP
 mailer:
@@ -125,7 +125,7 @@ build:
   production: false
   name: Web API REST v1.0.0
   url: http://api.hospitalmetropolitano.org/
-  ducumentosRetencionesProv: '//172.16.3.125/face/CONCLINARETENCIONES/TestTxtXml/Procesadas/Autorizados/ComprobantesRetenciones/'
+  ducumentosRetencionesProv: "//172.16.3.125/face/CONCLINARETENCIONES/TestTxtXml/Procesadas/Autorizados/ComprobantesRetenciones/"
   timezone: America/Guayaquil
   version: 3.0.1
 
@@ -140,7 +140,7 @@ sessions:
 # Configuración de la api
 api:
   active: true
-  origin: '*'
+  origin: "*"
   url: https://api.hospitalmetropolitano.org/v1/
 
 # Configuración de ruta
@@ -169,7 +169,7 @@ errors:
     message: ¡Error! Pasaporte o Documento extrangero no puede ser mayor a 25 caracteres.
     code: 4005
   notActiveAccount:
-    message: '¡Error! Cuenta electrónica sin activar. Active su cuenta.'
+    message: "¡Error! Cuenta electrónica sin activar. Active su cuenta."
     code: 4007
   notRegisterAccount:
     message: ¡Error! Cuenta electrónica no esta registrada.
@@ -187,5 +187,5 @@ errors:
     message: ¡Error! Contraseña incorrecta.
     code: 4013
   notQsecAccount:
-    message: '¡Error! Preguntas de Seguridad sin configurar.'
+    message: "¡Error! Preguntas de Seguridad sin configurar."
     code: 4014
