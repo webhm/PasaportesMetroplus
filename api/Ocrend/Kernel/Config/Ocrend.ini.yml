@@ -5,7 +5,7 @@
 # For the full copyright and license information, please view the LICENS
 # file that was distributed with this source code.
 
-# Configuración de la base de datos
+# Configuración de la base de datos para la conexion
 database:
   default_driver: mysql
   drivers:
